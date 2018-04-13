@@ -1,0 +1,35 @@
+@charset "utf-8";
+body {
+	background-color: #0091FF;
+}
+.CenterContent {
+	width: 45%;
+	margin: auto;
+	height: 100%;
+}
+footer {
+	width: 100%;
+	height: 50px;
+}
+
+table {
+	width: 100%;
+	height: 100%;
+}
+.Description  {
+	color: #000000;
+	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
+	font-weight: lighter;
+	font-style: normal;
+	font-variant: normal;
+}
+
+.Content {
+}
+.Logo {
+	margin: auto;
+	text-align: center;
+}
+.Cloud1 {
+	position: fixed;
+}

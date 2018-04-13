@@ -1,0 +1,96 @@
+<link href="https://fonts.googleapis.com/css?family=Roboto+Mono" rel="stylesheet">
+
+/* REAL ASS SHIT */
+
+body div {
+	height: 900px;
+	margin: auto;
+	width: 70%;
+}
+.guts {
+	color: #FF0004;
+	background-color: #4D0016;
+}
+.MainContainer   {
+	background-color: #000000;
+	/* [disabled]outline: undefined dashed; */
+	width: 50%;
+	margin: auto;
+	height: Auto;
+	-webkit-box-shadow: 4px 4px 0px -1px #FF0004;
+	box-shadow: 4px 4px 0px -1px #FF0004;
+}
+.Transmission    {
+	background-color: #000000;
+	width: 70%;
+	margin-top: 30px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 30px;
+	height: 55px;
+	border: 1px solid #FF0004;
+	text-align: center;
+	line-height: 55px;
+	vertical-align: middle;
+}
+.guts header marquee p {
+	color: #EC9EBF;
+	font-family: 'Roboto Mono', monospace;
+	font-style: normal;
+	text-shadow: 1px 1px #1F000D;
+	font-weight: lighter;
+}
+#TextGeneral {
+	text-align: center;
+	color: #EC9EBF;
+}
+.TermaTextGen {
+/* use for something else */
+}
+
+.Terma {
+	height: 35px;
+	margin: auto;
+	width: 400px;
+	background-color: #000000;
+	text-align: center;
+	line-height: 35px;
+	vertical-align: middle;
+}
+.Offline {
+	color: #FF0004;
+	font-weight: bold;
+	font-size: 15px;
+}
+.Online {
+	color: #00FF05;
+	font-weight: bold;
+	font-size: 15px;
+}
+.Corrupted {
+	color: #5700A2;
+	font-weight: bold;
+	font-size: 15px;
+}
+
+
+
+.mainbox  {
+}
+hr {
+	margin: auto;
+	width: 95%;
+	border-color: #EC9EBF;
+}
+h3 {
+	color: #FF0004;
+	text-align: center;
+}
+.Them {
+	width: 1100px;
+	margin-top: 50px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: auto;
+	height: 577px;
+}

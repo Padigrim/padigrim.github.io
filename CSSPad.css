@@ -1,0 +1,178 @@
+/* REAL ASS SHIT */
+
+body div {
+	height: 900px;
+	margin: auto;
+	width: 70%;
+}
+.guts {
+	color: #FF0004;
+	background-color: #1F000D;
+	background-image: url(Images/Zone2.png);
+}
+.MainContainer   {
+	background-color: #000000;
+	/* [disabled]outline: undefined dashed; */
+	width: 50%;
+	margin: auto;
+	height: Auto;
+	-webkit-box-shadow: 4px 4px 0px -1px #FF0004;
+	box-shadow: 4px 4px 0px -1px #FF0004;
+}
+.Transmission    {
+	background-color: #000000;
+	width: 90%;
+	margin-top: 30px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 30px;
+	height: 0.5in;
+	border: 1px solid #FF0004;
+}
+.guts header marquee p {
+	color: #EC9EBF;
+	font-family: 'Roboto Mono', monospace;
+	font-style: normal;
+	text-shadow: 1px 1px #1F000D;
+	font-weight: lighter;
+}
+#TextGeneral {
+	text-align: center;
+	color: #EC9EBF;
+}
+
+.Terma {
+	height: 35px;
+	margin: auto;
+	width: 400px;
+	background-color: #000000;
+	text-align: center;
+	line-height: 35px;
+	vertical-align: middle;
+}
+.TermaStatusLeg {
+	height: 50px;
+	margin: auto;
+	width: 500px;
+	background-color: #000000;
+	text-align: center;
+	line-height: 50px;
+	vertical-align: middle;
+}
+.feet {
+	height: 350px;
+	width: 100%;
+	text-align: center
+}
+.legText {
+	color: #424242;
+}
+
+
+.Offline {
+	color: #FF0004;
+	font-weight: bold;
+	font-size: 15px;
+}
+.Online {
+	color: #00FF05;
+	font-weight: bold;
+	font-size: 15px;
+}
+.Corrupted {
+	color: #5700A2;
+	font-weight: bold;
+	font-size: 15px;
+}
+
+
+
+.mainbox  {
+}
+hr {
+	margin: auto;
+	width: 95%;
+	border-color: #EC9EBF;
+}
+h3 {
+	color: #FF0004;
+	text-align: center;
+}
+.LegContent {
+	width: 100%;
+	height: 3240px;
+	position: relative;
+}
+#Bottom1 {
+	position: absolute;
+	margin: auto;
+	left: 25%;
+	bottom: 20px;
+	right: 25%;
+}
+
+#Bottom2 {
+	position: absolute;
+	margin: auto;
+	left: 25%;
+	bottom: 100px;
+	right: 25%;
+}
+
+a:link {
+	color: #00FF05;
+	font-weight: bold;
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: underline;
+	color: #000DFF;
+}
+.Footer {
+	height: 85px;
+	width: 100%;
+	position: absolute;
+	margin: auto;
+	bottom: 0px;
+}
+
+/* Chat Log items */
+
+.Leggy {
+	height: 3070px;
+	width: 100%;
+	position: absolute;
+	margin: auto;
+	top: 0px;
+}
+.ChatlogMain {
+	width: 400px;
+	height: 395px;
+}
+.ScanLeg {
+	width: 300px;
+	height: 480px;
+}
+.ChatlogA {
+	background: #000000;
+	width: 300px;
+	margin-right: auto;
+	margin-left: auto;
+	height: 85px;
+	text-align: left;
+}
+
+.ChatlogB {
+	background: #000000;
+	width: 300px;
+	margin-right: auto;
+	margin-left: auto;
+	height: 85px;
+	text-align: right;
+}
+
+.Chat {
+	color: #ED292C;
+	padding-top: 21px;
+	padding-bottom: auto;
+}

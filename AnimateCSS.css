@@ -1,0 +1,65 @@
+@charset "utf-8";
+.typewriter {
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  border-right: .15em solid orange; /* The typwriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  letter-spacing: .15em; /* Adjust as needed */
+  animation: 
+    typing 3.5s steps(40, end),
+    blink-caret .75s step-end infinite;
+}
+
+/* The typing effect */
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: black; }
+}
+
+@keyframes blink {50% { color: transparent }}
+.loader__dot { animation: 1s blink infinite }
+.loader__dot:nth-child(2) { animation-delay: 250ms }
+.loader__dot:nth-child(3) { animation-delay: 500ms }
+
+.Corrupted:before
+{
+	content: 'ＣＯＲＲＵＰＴＥＤ';
+	animation: animate infinite 0.2s;
+}
+
+@keyframes animate
+{
+	0%
+	{
+		content: 'ＣＯＲＲＵＰＴＥＤ';
+	}
+	25%
+	{
+		content: 'ＣＯＲＲＵＰＴZＤ';
+	}
+	50%
+	{
+		content: 'ＨＥＬＰ ＭＥＰＬ';
+	}
+	75%
+	{
+		content: 'Ｃ ♢ＲＲＵＰＴ ΣＤ';
+	}
+	100%
+	{
+		content: 'ＣＯＲＲＵＰＴＥＤ';
+	}
+}
+
+canvas {
+  display:block;
+  background: linear-gradient(#010 0%, transparent 20%);
+  background-size: 5px 5px;
+}
+

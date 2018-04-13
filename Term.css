@@ -1,0 +1,18 @@
+@charset "utf-8";
+body {
+	background-color: #000000;
+}
+p {
+	color: #D7D7D7;
+	font-family: 'Inconsolata', monospace;
+	font-style: normal;
+	font-size: small;
+
+}
+
+.output {
+  color: white;
+}
+.active:after {
+  content: '_';
+}
